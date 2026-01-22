@@ -1,0 +1,25 @@
+body {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.vnitrni {
+    background-color: red;
+    margin: 30px;
+    padding: 20px;
+    border: solid black 4px;
+    border-radius: 10px;
+}
+
+.venkovni {
+    background-color: aquamarine;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Černá stránka s červeným pozadím</title>
+    <style>
+        body {
+            background-color: black;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Změněno na flex-start, aby byl obsah nahoře */
+            flex-direction: column; /* Představí řádky jako sloupce */
+        }
+        .red-background {
+            background-color: red;
+            padding: 5px 10px; /* Zmenšení paddingu pro menší text */
+            color: black;
+            font-size: 1rem; /* Menší velikost písma */
+            width: 100%;
+            text-align: center;
+            margin-top: 60px; /* Posune text na třetí řádek */
+        }
+    </style>
+</head>
+<body>
+    <div class="red-background">Ahoj</div>
+</body>
+</html>

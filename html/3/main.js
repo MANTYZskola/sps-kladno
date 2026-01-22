@@ -1,0 +1,2 @@
+
+    vypis("ahoj")
